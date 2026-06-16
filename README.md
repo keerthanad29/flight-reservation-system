@@ -1,26 +1,50 @@
-# Flight Reservation System
+# ✈️ Flight Reservation System
 
-A Python console-based Flight Reservation System that allows passengers to **sign up, log in, log out**, check flight availability & fares, book tickets, and allows cashier to approve and issue tickets.
+> A Python console-based flight booking system with dual-role access for passengers and cashiers.
 
-## Features
-- **Passenger**:
-  - Sign Up (create account)
-  - Log In
-  - Log Out
-  - Check flight availability and fares
-  - Book tickets
-- **Cashier**:
-  - Approve bookings
-  - Issue tickets
-- Menu-driven interactive console program
-- Booking status flows: **Pending → Approved → Issued**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Console](https://img.shields.io/badge/Console--Based-000000?style=for-the-badge&logo=windows-terminal&logoColor=white)
 
-## Tech Stack
+---
+
+## 🎯 Features
+
+**Passenger Role**
+- Sign up & login system
+- Check flight availability & fares
+- Book tickets instantly
+
+**Cashier Role**
+- Approve pending bookings
+- Issue confirmed tickets
+
+**Booking Flow:** `Pending → Approved → Issued`
+
+---
+
+## 🛠 Tech Stack
 - Python 3
-- Console-based input/output
-- Basic user authentication (in-memory username/password)
+- Console-based I/O
+- In-memory authentication system
+- Menu-driven architecture
 
-## How to Run
-1. Clone the repository: 
-   ```bash
-   git clone https://github.com/yourusername/flight-reservation-system.git
+---
+
+## 🚀 How to Run
+
+```bash
+git clone https://github.com/keerthanad29/flight-reservation-system.git
+cd flight-reservation-system
+python flight_reservation_system.py
+```
+
+---
+
+## 📁 Project Structure
+
+```
+flight-reservation-system/
+├── flight_reservation_system.py   # Main application
+├── output.py                      # Output handling
+└── README.md
+```
